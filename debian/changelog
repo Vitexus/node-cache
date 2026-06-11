@@ -1,0 +1,5 @@
+node-cache (5.1.2) unstable; urgency=medium
+
+  * Initial Debian packaging of node-cache.
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Wed, 11 Jun 2026 12:00:00 +0200

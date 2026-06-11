@@ -1,0 +1,20 @@
+Source: node-cache
+Section: javascript
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-nodejs | pkg-js-tools
+Standards-Version: 4.7.0
+Homepage: https://github.com/node-cache/node-cache
+Rules-Requires-Root: no
+
+Package: node-cache
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+ node-clone
+Description: Simple and fast Node.js in-memory cache
+ Simple and fast NodeJS internal caching. Node internal in memory cache
+ like memcached. No external dependencies or daemons required.

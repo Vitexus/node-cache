@@ -1,0 +1,6 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with nodejs
+
+override_dh_auto_test:
